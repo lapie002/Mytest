@@ -1,0 +1,24 @@
+body {
+  width:100%;
+  margin:0;
+  padding:0;
+  font-size:18px;
+}
+
+#root {
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  flex-flow: wrap;
+  justify-content: space-between;;
+}
+
+.content {
+  width:20%;
+  background:none;
+  height:200px;
+  margin-top:1%;
+  border: 0.1rem solid #566270;
+  border-radius: 1rem;
+}

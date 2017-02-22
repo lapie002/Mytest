@@ -1,0 +1,20 @@
+.success{
+  text-align: center;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-weight: bold;
+  padding-top: 2cm;
+  height: 125px;
+  width: 250px;
+  background-color: green;
+
+}
+
+.fail{
+  text-align: center;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-weight: bold;
+  padding-top: 2cm;
+  height: 125px;
+  width: 250px;
+  background-color: red;
+}

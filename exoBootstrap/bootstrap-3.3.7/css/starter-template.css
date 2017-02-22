@@ -1,0 +1,52 @@
+body {
+
+  padding-top: 50px;
+
+}
+
+.starter-template {
+
+  padding: 40px 15px;
+  text-align: center;
+
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+[class*="col-"], footer {
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+
+}
+
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+/*@media (min-width: @screen-tablet) { ... }*/
+
+/* Medium devices (tablets, 992px and up) */
+/*@media (min-width: @screen-desktop) { ... }*/
+
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: @screen-large-desktop) { ... }*/

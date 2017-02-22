@@ -1,0 +1,23 @@
+Exercice JS pour le combat en JS :
+------------------------------------------------------------------------------------------------------------------------
+1er exercice :
+
+Sur une page html :
+Faire une fonction JS qui lorsqu'on clique sur un bouton "Se battre" affiche dans la page HTML(pas dans un console.log) une 1 fois sur 2 soit:
+"Vous avez perdu"
+soit
+"Vous avez gagné puis 4 secondes plus tard une redirection vers une autre page html
+Etape 1 : Créer un bouton dans le fichier html avec un id combat et qui affiche "Se battre" Etape 2 : En JS(vanilla) ou jQuery
+Récupérer l'élément combat grâce à son id:
+soit avec
+getElementById('combat') ou $("combat") Etape 3 : Ajouter l'événement click sur le bouton combat avec en DOM-2 -> addEventListener ou la fonction click() de Jquery
+Etape 4 : Sortir un nombre aléatoire: soit 0, soit 1(gagné) à chaque click
+Etape 5 : Si égal à 1 afficher "Vous avez gagné"" et si 0 "Vous avez perdu" dans une div id=resultat
+Etape 6 : Créer un cookie avec vie=20 et afficher la valeur du cookie dans la div id=vie dans le HTML
+Etape 7 : Décrémenter d'une valeur le cookie et afficher dans le HTML sa nouvelle valeur, voir le tutoriel en anglais ou (en français)[http://ppk.developpez.com/tutoriels/javascript/gestion-cookies-javascript/]
+Etape 8 : Quand on gagne, rediriger sur une nouvelle page HTML et y afficher dessus le nombre de vie restante en lisant le contenu du cookie.
+
+2eme exercice:
+------------------------------------------------------------------------------------------------------------------------
+Pareil que le 1er exercice mais seulement on gagne 1 fois sur 4 seulement à l'étape 4 :
+quand on perd, sa redirige vers une page fail

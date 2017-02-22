@@ -1,0 +1,43 @@
+.margededebut{
+
+  margin-top: 50px;
+}
+
+
+
+.margedefin{
+
+  margin-bottom: 150px;
+}
+
+/*les couleurs*/
+.colorlightblue{
+
+  background-color: #9CD8E8;
+}
+
+.colordarkblue{
+
+  background-color: #9cb2e8;
+}
+
+.colorlightgreen{
+
+  background-color: #b1edb8;
+}
+
+.colorlightyellow{
+
+  background-color: #d8e89c;
+}
+
+.colorlightgrey{
+
+  background-color: #CCCDD2;
+}
+
+
+.colorlightred{
+
+  background-color: #eeb9b9;
+}

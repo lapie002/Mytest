@@ -1,0 +1,24 @@
+#site{
+    display: flex;
+    justify-content: space-between;
+}
+#menlever{
+  background: grey;
+  width: 20%;
+}
+
+#ajouterUnElementDedans{
+  background: green;
+  width: 20%;
+  height: 100px;
+}
+
+#mettreEnRouge{
+  background: yellow;
+  width: 20%;
+  height: 100px;
+}
+
+.warning{
+  background: red;
+}

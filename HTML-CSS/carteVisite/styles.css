@@ -1,0 +1,117 @@
+/*reset HTML*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*-------------------------------------------*/
+
+#card{
+  font-family: arial;
+  border:1px solid black;
+  box-shadow: 2px 2px 2px black;
+  margin: 1em;
+  height:17em;
+  width: 35em;
+}
+
+#contact{
+    background-color: #eaecef;
+    float:left;
+    width: 35em;
+}
+
+/*Michel Dupont*/
+h1{
+  color: #444444;
+  width:60%;
+  height:1em;
+  font-size: 2.4em;
+  Font-weight: bold;
+  margin-left:0.75em;
+  margin-top: 1.3em;
+  margin-bottom:1em;
+  margin-right:1em;
+  float:left;
+}
+
+/*Logo*/
+img{
+  width: 80px;
+  height: 56px;
+  margin: 1.7em;
+  float:right;
+}
+
+/*Développement web*/
+h2{
+  color: #938888;
+  width:50%;
+  height:1em;
+  font-weight: bold;
+  font-size: 1.7em;
+  margin-left: 1em;
+  margin-bottom: 1.65em;
+  float:left;
+  posisition:relative
+}
+
+/*HTML / CSS / JS*/
+h3{
+  color:#d2cfcd;
+  width:45%;
+  font-weight: bold;
+  padding-top: 0.55em;
+  float:right;
+}
+
+/*michel.dupond@gmail.com*/
+a{
+  color:#2298cf;
+  padding-top: 0.5em;
+  margin: 1.5em;
+  float: left;
+
+}
+
+/*+33 (0)6 11 42 30 15*/
+p{
+ padding-top: 0.5em;
+  margin: 1.5em;
+  font-weight: bold;
+  color:#888888;
+  float: right;
+}
+
+#back{
+  border: 1px solid black;
+  border-radius: 30%;
+  background-color: lime;
+  float: right;
+  position: fixed;
+  right: 0.3em;
+  top: 0.3em;
+  opacity: 0.5;
+}
+
+#back>a{
+	padding:1px;
+  margin:0px;
+  font-family: arial;
+  color:black;
+}

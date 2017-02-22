@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/*font: inherit;*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  font-family: 'Arial',sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Le reset de Eric meyer ci-dessus */
+/* Mes styles */
+#vote{
+  height: 600px;
+  background: url('../img/bg-home.jpg') repeat scroll top center #fff;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#connexion a{
+  font-size: 12px;
+  text-decoration: none;
+  vertical-align: 7px;
+}
+#logo img{
+  margin: 5px 0 0 10px;
+}
+#connexion {
+  margin: 5px 10px 0 0;
+}
+#connexion a:link {
+  color: #FFF;
+}
+#logo{
+  justify-content: flex-end;
+}
+#voteDon{
+  width: 100%;
+  color: #FFF;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-family: "Roboto",Arial,sans-serif;
+  font-size: 44px;
+  text-align: center;
+}
+#action{
+  width: 100%;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+ul.icones {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 25px auto;
+  justify-content: center;
+}
+.icones li{
+  display: flex;
+  margin-right: 15px;
+  text-align: center;
+  width: 160px;
+}
+.icones li a{
+  background: url('../img/cercle.png') no-repeat center transparent;
+  height: 151px;
+  line-height: 151px;
+  margin: 0 auto;
+  width: 151px;
+}
+.icones img{  margin: 32px 0 0 0;
+}
+ul.buttons{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 10%;
+  justify-content: center;
+}
+ul.buttons li{
+  margin-right: 15px;
+  text-align: center;
+  width: 160px;
+}
+ul.buttons li a {
+  display: flex;
+  background-color: #ff5f00;
+  border-radius: 5px;
+  color: #fff;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px;
+	/*text-align: center;*/
+  text-decoration: none;
+  width: 160px;
+
+}
+
+ul.buttons li a span {
+
+	padding: 10px 10px 10px 10px;
+
+}
+
+/*facebook*/
+ul.facebook-icone{
+
+}
+.facebook-icone li{
+
+}
+
+.facebook-icone li a{
+
+}
+
+.facebook-icone img{
+	margin: 80px auto 0 620px;
+}

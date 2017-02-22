@@ -1,0 +1,72 @@
+.titre{
+  padding-left: 50px;
+}
+
+#page{
+
+  margin: 25px auto auto 500px;
+
+}
+
+#t_combat td input#affichervie {
+
+    text-align : right ;
+
+}
+
+
+#t_combat td input {
+
+    width  : 240px ;
+    height : 30px ;
+    font-size : 1.2em ;
+
+}
+/* Cas particulier du champ texte : le sélecteur ne se limite
+ * pas à #afficheur pour que sa priorité soit supérieure à celle du précédent selecteur.
+ * Voir le cours ou http://www.w3.org/TR/CSS2/cascade.html#specificity pour plus de détails
+ */
+#t_combat td input#combat {
+
+    width  : 100% ;
+    text-align : center ;
+
+}
+
+
+.success{
+
+  text-align: center;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-weight: bold;
+  padding-top: 20px;
+  height: 50px;
+  width: 240px;
+  background-color: green;
+
+}
+
+.error{
+
+  text-align: center;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-weight: bold;
+  padding-top: 20px;
+  height: 50px;
+  width: 240px;
+  background-color: red;
+
+}
+
+
+.accueil{
+
+  text-align: center;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-weight: bold;
+  padding-top: 20px;
+  height: 50px;
+  width: 240px;
+  background-color: grey;
+
+}

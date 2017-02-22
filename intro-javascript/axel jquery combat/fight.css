@@ -1,0 +1,51 @@
+body{
+  display: flex;
+  justify-content: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.event{
+  width:300px;
+  padding: 6px;
+  border: solid 2px #c6c6c6;
+  border-radius: 12px;
+}
+
+.coeur{
+  border: solid 2px #c6c6c6;
+  border-radius: 12px;
+  padding:5px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+body img{
+  width:300px;
+  border-radius: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 3px;
+}
+
+body input{
+  width: 300px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+body p{
+  text-align: center;
+  background-color: white;
+  border: solid 2px #c6c6c6;
+  border-radius: 12px;
+}
+
+.life{
+  width:100px;
+  height:100px;
+  background-image: url("coeur.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+}

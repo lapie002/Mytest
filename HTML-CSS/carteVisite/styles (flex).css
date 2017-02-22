@@ -1,0 +1,57 @@
+body{
+    width: 34em;
+    border:1px solid black;
+    box-shadow: 6px 6px 6px black;
+}
+
+#card{
+    background-color: white;
+    display:flex;
+    flex-wrap: wrap;
+    width:34em;
+}
+
+#contact{
+    background-color: #eaecef;
+    display:flex;
+    width:34em;
+}
+
+h1{
+    color: #444444;
+    font-family: arial;
+    font-weight:bold;
+    font-size: 3em;
+    margin-left:5%;
+}
+
+h2{
+    text-align: left;
+    color: #938888;
+    margin-left:5%;
+}
+
+h3{
+    color:#d2cfcd;
+    padding-top: 0.3em;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+img{
+    min-width: :80px;
+    height: 56px;
+    padding-left:3em ;
+    padding-top: 2em;
+    margin-left: 5%;
+}
+
+a{
+  padding-top: 1em;
+  margin-left:5%;
+}
+
+p{
+  color:#888888;
+  margin-left: 5%
+}

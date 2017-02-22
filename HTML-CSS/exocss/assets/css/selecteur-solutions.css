@@ -1,0 +1,41 @@
+h2, p, h2, h3, div, span, body{
+  margin:0px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+}
+.master{
+  padding-left:1.25em;
+}
+
+.master div{
+  border:solid 1px grey;
+  background-color: #98b98b;
+  width: 35em;
+  height: 20em;
+  display:inline-block;
+  margin: 1em 1em 1em 1em;
+  padding: 1%;
+}
+
+h2{
+float:left;
+position: relative;
+margin-top:5px;
+width: 0em;
+height: 2em;
+top:2%;
+left: 2%;}
+
+img{
+  float:left;
+  padding-top: 4.5em;
+  width:50%;
+}
+
+h3{
+  padding-top:4em;
+  color: white;
+}
+
+p{
+  color: #3f3f3f;
+}

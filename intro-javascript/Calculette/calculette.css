@@ -1,0 +1,13 @@
+#t_calc td input {
+    width  : 2.5em ;
+    height : 2.5em ;
+    font-size : 1.2em ;
+}
+/* Cas particulier du champ texte : le sélecteur ne se limite
+ * pas à #afficheur pour que sa priorité soit supérieure à celle du précédent selecteur.
+ * Voir le cours ou http://www.w3.org/TR/CSS2/cascade.html#specificity pour plus de détails
+ */
+#t_calc td input#afficheur {
+    width  : 100% ;
+    text-align : right ;
+}

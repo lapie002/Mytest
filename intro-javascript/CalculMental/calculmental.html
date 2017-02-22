@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Calcul Mental</title>
+    <link rel="stylesheet" href="calculmental.css">
+    <script src="calculmental.js" type="text/javascript" language="JavaScript"></script>
+</head>
+<body onLoad="initialisation()">
+  <div id='page'>
+    <h1>Calcul Mental</h1>
+    <form name='calculmental'>
+      <table id="t_calc">
+        <tr>
+            <td>
+                <input type="text" readonly="readonly" name="afficheur" id="afficheur">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="Lancer" onClick="lancer()">
+            </td>
+        </tr>
+        <tr>
+            <td>
+               <input type="text" name="reponse" id="mareponse">
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <input type="button" value="Soumettre" onClick="envoie()">
+            </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  <!-- Ma div success ou error -->
+
+<!-- Mon fichier calculette.js -->
+</body>
+</html>

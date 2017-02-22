@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Federo";
+  src: url("Federo-Regular.ttf");
+}
+
+
+body{
+  flex-direction: column;
+}
+
+header{
+  text-align: center;
+}
+
+.pad {
+  padding: 1em;
+}
+
+.flex{
+  display:flex;
+}
+
+.border{
+  border: 1px solid grey;
+  border-radius: 12px;
+  margin: 0.1em;
+}
+
+article{
+  width:50%;
+}
+
+#axel img{
+  width: 80%;
+  height: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-border-radius:40px;
+  -webkit-border-radius:40px;
+}
+
+#bruno img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+}
+
+header h1, h3{
+  font-family: federo, serif;
+}

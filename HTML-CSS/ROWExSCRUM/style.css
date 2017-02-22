@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('SourceSansPro-Regular.otf');
+}
+
+* {
+  font-family: SourceSansPro, Arial, sans-serif;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.lexique-article1 {
+  margin-bottom: 9%;
+}
+
+.lexique-article1 img {
+  margin: auto;
+  display: block;
+  width: 35%;
+  height: auto;
+  float: right;
+  padding: 2%;
+}
+
+.lexique-article2 {
+  margin-bottom: 12%;
+}
+
+.lexique-article2 img {
+  margin: auto;
+  display: block;
+  width: 35%;
+  height: auto;
+  float: left;
+  padding: 4%;
+}
+
+.lexique-article1 img:active, .lexique-article2 img:active {
+  width: 55%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 9%;
+}
+
+h3 {
+  color: #444444;
+}
+
+a {
+  text-decoration: none;
+  color: #FF8800;
+}
+
+a:hover {
+  font-style: italic;
+}

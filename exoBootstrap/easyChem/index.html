@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chemical Molecules</title>
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <!-- template css -->
+    <link href="./css/template.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="http://easychem.org/download/easychem.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://easychem.org/download/easychem.css" />
+</head>
+<body class="echem-auto-compile">
+
+  <section class="container">  <!-- Cette section contient toute la page afin de définir un blog total -->
+        <div class="row col-lg-12 margededebut">  <!-- Cette div comprend la première partie du cours-->
+            <h1>  L E S  M O L É C U L E S</h1> <!-- h1 c'est le 1er titre, le plus gros -->
+            <h2>I) Différentes molécules</h2> <!-- h2 c'est le second titre, un peu moins gros  donc, et ça continuera ainsi pour les h3, h4, h5 et h6-->
+            <p>Les atomes, mis à part les gaz nobles, cherchent à s’associer avec d’autres atomes pour former
+          des molécules. Des liaisons se forment grâce aux électrons célibataires situés sur la dernière
+          couche des atomes. La réalisation de ces liaisons permet d’obtenir une couche électronique
+          externe en octet (quatre doublets) ou en duet (un doublet).</p> <!-- la balise <p> contient le texte dans un paragraphe -->
+       </div>  <!-- fermeture de la première div, celle de la première partie de cours -->
+
+<div class="row"> <!-- nouvelle div, destinée au tableau -->
+<section class="col-lg-12">
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th class="colorlightblue">Formule brute</th>
+        <th class="colorlightred">Nom</th>
+        <th class="colorlightgreen">Composition</th>
+        <th class="colorlightgrey">Electrons du dernier niveau</th>
+        <th class="colordarkblue">Formule développée</th>
+        <th class="colorlightyellow">Modèle moléculaire</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="colorlightblue">H<sub>2</sub></td>
+        <td class="colorlightred">Dihydrogène</td>
+        <td class="colorlightgreen">2 atomes d’hydrogène</td>
+        <td class="colorlightgrey"><div align="center">H : H</div></td>
+        <td class="colordarkblue"><div align="center" class="echem-formula">H-H</div></td>
+        <td class="colorlightyellow"><img src="./moleculesPNG/dihydrogen.png" alt=""></td>
+      </tr>
+      <tr>
+        <td class="colorlightblue">O<sub>2</sub></td>
+        <td class="colorlightred">Dioxygène</td>
+        <td class="colorlightgreen">2 atomes d’oxygène</td>
+        <td class="colorlightgrey"><div align="center">O : : O</div></td>
+        <td class="colordarkblue"><div align="center" class="echem-formula">O=O</div></td>
+        <td class="colorlightyellow"><img src="./moleculesPNG/dioxygene.png" alt=""></td>
+      </tr>
+      <tr>
+        <td class="colorlightblue">CO<sub>2</sub></td>
+        <td class="colorlightred">Dioxyde de carbone</td>
+        <td class="colorlightgreen">1 atome de carbone et 2 atomes d’oxygène</td>
+        <td class="colorlightgrey"><div align="center"> O : : C : : O</div></td>
+        <td class="colordarkblue"><div align="center" class="echem-formula">O=C=O</div></td>
+        <td class="colorlightyellow"><img src="./moleculesPNG/dioxydedecarbone.png" alt=""></td>
+      </tr>
+      <tr scope="row">
+        <td class="colorlightblue">H<sub>2</sub>O</td>
+        <td class="colorlightred">Eau</td>
+        <td class="colorlightgreen">1 atome d’oxygène et 2 atomes d’oxygène</td>
+        <td class="colorlightgrey"><div align="center">H : O : H</div></td>
+        <td class="colordarkblue"><div align="center" class="echem-formula">H-O-H</div></td>
+        <td class="colorlightyellow"><img src="./moleculesPNG/eau.png" alt=""></td>
+      </tr>
+      <tr>
+        <td class="colorlightblue">CH<sub>4</sub></td>
+        <td class="colorlightred">Méthane</td>
+        <td class="colorlightgreen">1 atome de carbone et 4 atomes d’hydrogèn</td>
+        <td class="colorlightgrey">
+          <div align="center">    H    </div>
+          <div align="center">    ..   </div>
+          <div align="center">H : C : H</div>
+          <div align="center">    ..   </div>
+          <div align="center">    H    </div>
+        </td>
+        <td class="colordarkblue"><div align="center" class="echem-formula">H-C-H;H|#C|H</div></td>
+        <td class="colorlightyellow"><img src="./moleculesPNG/methane.png" alt=""></td>
+      </tr>
+      <tr>
+        <td class="colorlightblue">HCl</td>
+        <td class="colorlightred">Chlorure d’hydrogène</td>
+        <td class="colorlightgreen">1 atome de chlore et un atome d’hydrogène</td>
+        <td class="colorlightgrey"><div align="center">H : Cl</div></td>
+        <td class="colordarkblue"><div align="center" class="echem-formula">H-Cl</div></td>
+        <td class="colorlightyellow"><img src="./moleculesPNG/hydrogenchloride.png" alt=""></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+</div>  <!-- fermeture de la div destinée au tableau -->
+
+<div class="row margedefin">
+  <div class="col-lg-6">  <!-- nouvelle div pour la suite du cours sa classe col-lg-6 lui permet de ne prendre que la moitié de largeur, le max étant 12-->
+  <h2>II) Masse molaire moléculaire</h2>
+  <p>La masse molaire moléculaire est la masse d’une mole de molécules. Elle s’exprime en
+  g/mol et est obtenue en réalisant la somme des masses molaires atomiques des atomes
+  constituant la molécule.</p>
+  </div>  <!-- fermeture div -->
+  <!-- nouvelle div pour cree un espace de 2 -->
+
+  <div class="col-lg-6"><!-- nouvelle div idem a la précédente, destinée à l'exemple -->
+        <h3>Exemple</h3>
+        <p>Masse molaire du dioxyde de carbone CO 2 :
+        Sachant que M(C) = 12 g/mol et M(O) = 16 g/mol
+        M(CO 2 ) = 1 × M(C) + 2 × M(O)
+        M(CO 2 ) = 1 × 12 + 2 × 16
+        Donc M(CO 2 ) = 44 g/mol
+        Cours sur les molécules</p>
+  </div> <!-- fermeture div -->
+</div>
+</section>  <!-- fin de la section, celle qui englobait toute la page, donc à la fin -->
+
+<!-- les scripts, toujours tout a la fin du body :  jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="js/bootstrap.min.js"></script>
+
+<script src="./js/bootstrap.js"></script>
+<!-- -->
+</body>
+</html>
